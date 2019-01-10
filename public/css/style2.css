@@ -1,0 +1,47 @@
+/*Style sheet to stick footer to bottom */
+html,body{
+    height: 100%
+
+}
+
+#holder {
+   min-height: 100%;
+   position:relative;
+}
+
+
+
+#body {
+    padding-bottom: 102px;
+
+}
+
+#footer{
+    background-color: #2d2d30;
+    bottom: 0;
+    height: 102px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+@media screen and (max-width: 600px) {
+    #footer {
+      height: 150px;
+    }
+    #body {
+        padding-bottom: 150px;
+
+    }
+
+
+}
+@media screen and (max-width: 300px) {
+    #footer {
+      height: 200px;
+    }
+    #body {
+        padding-bottom: 200px;
+
+    }
+
+}
